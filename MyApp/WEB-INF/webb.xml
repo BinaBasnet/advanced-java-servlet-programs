@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>ReadServlet</servlet-name>
+        <servlet-class>ReadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReadServlet</servlet-name>
+        <url-pattern>/ReadServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
